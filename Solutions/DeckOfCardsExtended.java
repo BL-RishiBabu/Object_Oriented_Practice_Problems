@@ -52,7 +52,6 @@ public class DeckOfCardsExtended {
         CustomQueue playerQueue = new CustomQueue();
         for (int i = 0; i < 4; i++) {
             Player p = new Player();
-            // Assign 9 cards to player here...
             p.sortByRank();
             playerQueue.enqueue(p);
         }
